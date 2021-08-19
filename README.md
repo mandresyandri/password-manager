@@ -21,4 +21,5 @@ Logiciel qui permet de générer un mot de passe correspondant a un compte et de
 - [ ] Pseudocoding (Compte utilisateur)
 
 ### Phase 1
+- [ ] Refaire la structure du code du fichier "main.py"
 - [ ] Faire en sorte d'afficher le mots de passe décrypté

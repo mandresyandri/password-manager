@@ -4,8 +4,8 @@ import crypt
 import json 
 
 # asking 
-user_input = input('Pour quelle plateforme ?\n')
-user_id = input('Votre login:\n')
+user_input = input('Pour quelle plateforme ?\n') # à mettre dans mai.py
+user_id = input('Votre login:\n') # à mdans le fichier main.py
 
 # printing the password
 password = crypt.encrypted
