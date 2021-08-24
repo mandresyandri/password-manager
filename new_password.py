@@ -1,27 +1,22 @@
 # importing modules
+from crypt import decrypt_cesar, encrypt_cesar
 import password_generator
 import crypt 
 import json 
-
-# asking 
-user_input = input('Pour quelle plateforme ?\n') # à mettre dans mai.py
-user_id = input('Votre login:\n') # à mdans le fichier main.py
-
-# printing the password
-password = crypt.encrypted
-print(f'Password:\n{password_generator.the_pass}')
-
-# organized data 
-odata = { # Trouver un moyen pour rassembler tout les mdps dans un seul fichier
-    user_input: {
-    'Login':user_id,
-    'Password': password
+# the function
+def adding_pass():
+    # Asking for the platform and the login
+    platform = input('Pour quelle plateforme ?\n')
+    login = input('login:\n')
+    # Showing the pass 
+    mdp = password_generator.the_pass
+    print(f'Votre mot de passe est: \n{mdp}')
+    # Crypting the password
+    e_mdp = crypt.encrypt_cesar(mdp)
+    the_password = {
+        "Plateforme": platform,
+        "Login:": login, 
+        "Mot de passe": e_mdp
     }
-}
-
-# adding password in file
-def add_pass(): # trouver un système pour ajouter ceci dans le fichier json
-    with open('my_password.json', 'w') as fichier: 
-        json.dump(odata, fichier, indent = 4)
-add_pass()
-
+    with open('my_password.json', 'w') as fichier:
+        json.dump(the_password, fichier, indent = 4 )
