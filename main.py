@@ -1,7 +1,5 @@
 # importing modules
-import new_password
-import show_password
-
+import authentification
 # User action
 print('Bonjour, comment puis-je vous aider ?')
 request_user = input('["Create"] Créer un nouveau mot de passe | ["Show"] Consulter les mot de passe ')
