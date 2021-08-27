@@ -17,9 +17,10 @@ Logiciel qui permet de générer un mot de passe correspondant a un compte et de
 
 ## Todo
 ### Structuration de la logique du code
-- [ ] Définir ce que fait mon application (Brainstorming)
-- [ ] Pseudocoding (Compte utilisateur)
+- [x] Définir ce que fait mon application (Brainstorming)
+- [ ] Coding (Compte utilisateur)
 
 ### Phase 1
 - [ ] Refaire la structure du code du fichier "main.py"
-- [ ] Faire en sorte d'afficher le mots de passe décrypté
+- [x] Faire en sorte d'afficher le mots de passe décrypté
+- [ ] Système de login utilisateur
