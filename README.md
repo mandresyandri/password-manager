@@ -15,12 +15,9 @@ Logiciel qui permet de générer un mot de passe correspondant a un compte et de
 ## Déployement de l'appication
 > Encore à définir
 
-## Todo
-### Structuration de la logique du code
-- [x] Définir ce que fait mon application (Brainstorming)
-- [ ] Coding (Compte utilisateur)
+### Logique du code
+[ ] Génération de code custom
+[ ] Mise en place d'un système d'authentification
+[ ] 
 
-### Phase 1
-- [ ] Refaire la structure du code du fichier "main.py"
-- [x] Faire en sorte d'afficher le mots de passe décrypté
-- [ ] Système de login utilisateur
+### Affichage graphique
