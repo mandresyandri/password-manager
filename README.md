@@ -17,7 +17,11 @@ Logiciel qui permet de générer un mot de passe correspondant a un compte et de
 
 ### Logique du code
 [ ] Génération de code custom
-[ ] Mise en place d'un système d'authentification
-[ ] 
+[ ] Mise en place d'un système de login 
+[ ] Trouver le moyen de mieux crypter le code
+[ ] Json, meilleur format de stockage de données ?
 
 ### Affichage graphique
+[ ] travailler le module Tkinter
+[ ] Mettre en place le GUI
+[ ] Remettre en question le GUI
